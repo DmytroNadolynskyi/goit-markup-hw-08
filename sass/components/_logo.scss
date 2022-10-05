@@ -1,0 +1,38 @@
+.logo__half-logo {
+    color: var(--half-logo-color);
+    font-family: raleway, sans-serif;
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+
+.logo {
+    color: var(--upper-logo-color);
+    font-family: raleway, sans-serif;
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: block;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+
+&:hover,
+&:focus {
+    color: var(--hover-color);
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    cursor: pointer;
+
+}
+}

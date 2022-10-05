@@ -1,0 +1,61 @@
+.footer-invite__text {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    line-height: 1.17;
+    font-weight: 700;
+
+    @media screen and(max-width:1199px) {
+    text-align: center;
+    }
+}
+
+.invite-list {
+    display: flex;
+
+    @media screen and(max-width:767px){
+        align-items: center;
+            justify-content: center;
+            margin-bottom: 60px;
+    }
+    
+
+}
+
+.invite-list__item {
+    margin-left: 10px;
+
+
+
+&:first-child {
+    margin-left: 0;
+}
+}
+.invite-list__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    color: #AFB1B8;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    background-color: #2196F3;
+}
+
+}
+
+
+
+.invite-list__icon {
+    width: 20px;
+    height: 20px;
+
+}

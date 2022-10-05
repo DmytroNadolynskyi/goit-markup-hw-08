@@ -1,0 +1,35 @@
+//-----utils styles------//
+@import './utils/variables';
+
+//-------base styles-------//
+
+@import './base/reset';
+@import './base/common';
+@import './base/section';
+@import './base/conteiner';
+
+//-------components styles-------//
+@import './components/titles';
+@import './components/buttom';
+@import './components/logo';
+@import './components/commun';
+@import './components/social';
+@import './components/invite';
+@import './components/footerForm';
+@import './components/filteres';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form';
+@import './components/address';
+
+//-------loyouts styles-------//
+@import './loyouts/header';
+@import './loyouts/siteNav';
+
+@import './loyouts/hero';
+@import './loyouts/features';
+@import './loyouts/occup';
+@import './loyouts/team';
+@import './loyouts/clients';
+@import './loyouts/footer';
+@import './loyouts/works';
