@@ -1,8 +1,21 @@
 .filter {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    
+    margin-bottom: 40px;
     gap: 8px;
+flex-wrap: wrap;
+   
+    @media screen and(min-width:768px){
+        margin-bottom: 40px;
+            justify-content: center;
+    }
+        
+    
+@media screen and(min-width:1200px) {
+    display: flex;
+    margin-bottom: 50px;
+        justify-content: center;
+}
 
 }
 
@@ -27,8 +40,7 @@
     transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
+   
 
 
 
@@ -51,4 +63,5 @@
 }
 .filter__button--one {
     padding: 6px 25px;
+    margin: 0;
 }

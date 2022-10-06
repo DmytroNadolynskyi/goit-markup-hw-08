@@ -1,5 +1,161 @@
 .header {
+    
     background-color: var(--white-color);
     height: 80px;
     border-bottom: solid 1px #EEEEEE;
+    
+}
+.logo__half-logo {
+    color: var(--half-logo-color);
+    font-family: raleway, sans-serif;
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+
+.logo {
+    color: var(--upper-logo-color);
+    font-family: raleway, sans-serif;
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: block;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+        font-family: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        cursor: pointer;
+
+    }
+}
+
+
+.communication {
+     display: flex;
+
+     @media screen and(min-width:768px) and(max-width:1199px){
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 90px;
+        
+        
+     }
+     
+    
+   
+    margin-left: auto;
+
+    @media screen and(max-width:767px) {
+        display: none;
+
+    }
+@media screen and(min-width:768px) and(max-width:1199px){
+    display: block;
+}
+
+
+.communication__contact {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding: 5px 0;
+    // padding: 32px 0;
+    color: #757575;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and(min-width:1200px){
+    padding: 32px 0;
+}
+    
+}
+
+
+    &:hover,
+    &:focus {
+        color: var(--hover-color);
+        font-weight: 500;
+
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+
+    }
+
+.communication__envelope{
+    
+}
+.communication__smart{
+   
+}
+.communication__item {
+    display: flex;
+    margin-left: 50px;
+
+    @media screen and(min-width:1200px){
+        align-items: center;
+            justify-content: center;
+    }
+    
+    
+    &:first-child {
+            margin-left: 0;
+        }
+
+    @media screen and(max-width:767px) {
+            display: none;
+    
+        }
+@media screen and(min-width:768px) and(max-width:1199px){
+    margin: 0;
+}
+
+
+
+    
+}
+
+
+.communication__icon {
+    display: block;
+    
+    margin-right: 10px;
+    fill: currentColor;
+
+    &:hover,
+    &:focus {
+        fill: #2196F3
+    }
+}
+
+.communication__icon--envelope {
+    width: 16px;
+    height: 12px;
+
+}
+
+.communication__icon--smart {
+    width: 10px;
+    height: 16px;
+
+}
 }

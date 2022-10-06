@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <!-- <header class="header">
+  <header class="header">
     <div class="conteiner conteiner--main-nav">
 
       <nav class=" conteiner--main-nav">
@@ -32,7 +32,7 @@
           <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
         </ul>
       </nav>
-
+    
       <ul class="communication ">
         <li class="communication__item">
           <a href="tel:+380961111111" class="communication__contact">
@@ -54,19 +54,24 @@
         </li>
 
       </ul>
-
+      
+    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="menu-icon" width="40" height="40">
+        <use href="./images/symbol-defs.svg#menuburg"></use>
+      </svg>
+     </button>
     </div>
-  </header> -->
+  </header>
   <main>
-    <!-- <section class="hero">
+    <section class="hero">
       <div class="conteiner">
         <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button" data-modal-open>Замовити послугу</button>
       </div>
-    </section> -->
+    </section> --> -->
 
 
-    <!-- <section class="section feature">
+     <section class="section feature">
       <div class="conteiner">
         <h2 class="feature__title"></h2>
         <ul class="feature__list">
@@ -117,40 +122,58 @@
           </li>
         </ul>
       </div>
-    </section> -->
-    <!-- <section class="section occupation">
+    </section>
+    <section class="section occupation">
       <div class="conteiner">
 
         <h2 class="occupation__title section-title">Чим ми займаємося</h2>
 
         <ul class="occupation__list">
           <li class="occupation__item">
-            <img src="./images/item01.jpg" alt="Процес програмування" width="370" />
+            <img 
+           srcset="./images/work/work_01_d-min.jpg 1x, ./images/work/work_01_d@2x-min.jpg 2x"
+            src="./images/item01.jpg" alt="Процес програмування" width="370" />
             <div class="occupation__position">
               <h3 class="occupation__subtitle ">Десктопні додатки</h3>
             </div>
           </li>
           <li class="occupation__item">
-            <img src="./images/item02.jpg" alt="Розроблення макету" width="370" />
+
+            <img 
+            
+srcset="./images/work/work_02_d-min.jpg 1x, ./images/work/work_02_d@2x-min.jpg 2x"
+            src="./images/item02.jpg" alt="Розроблення макету" width="370" />
             <div class="occupation__position">
               <h3 class="occupation__subtitle ">Мобільні додатки</h3>
             </div>
           </li>
           <li class="occupation__item">
-            <img src="./images/item03.jpg" alt="Підбір гами" width="370" />
+            <img
+            srcset="./images/work/work_03_d-min.jpg 1x, ./images/work/work_03_d@2x-min.jpg 2x"
+             src="./images/item03.jpg" alt="Підбір гами" width="370" />
             <div class="occupation__position">
               <h3 class="occupation__subtitle ">Дизайнерські рішення</h3>
             </div>
           </li>
         </ul>
       </div>
-    </section> -->
-    <!-- <section class="section team">
+    </section>
+    <section class="section team">
       <div class="conteiner">
         <h2 class="team__title section-title">Наша команда</h2>
         <ul class="team__list">
           <li class="team__item">
-            <img src="./images/item1.jpg" alt="man" width="270" />
+            <img 
+            srcset="./images/team/team-01_d-min.jpg 270w,
+            ./images/team/team-01_d@2x-min.jpg 540w,
+            ./images/team/team-01_t-min.jpg 354w,
+            ./images/team/team-01_t@2x-min.jpg 708w,
+            ./images/team/team-01_m-min.jpg 450w,
+            ./images/team/team-01_m@2x-min.jpg 900w"
+            
+            sizes="(min-width:1200px) 270px, (min-width:768px) 354px, (min-width:480px) 450px, 100vm"
+            src="" alt="man"  />
+            
             <div class="team-data">
               <h3 class="team-data__name">Ігор Дем'яненко</h3>
               <p class="team-data__text">Product Designer</p>
@@ -193,7 +216,16 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/item2.jpg" alt="man" width="270" />
+            <img 
+             srcset="./images/team/team-02_d-min.jpg 270w,
+            ./images/team/team-02_d@2x-min.jpg 540w,
+            ./images/team/team-02_t-min.jpg 354w,
+            ./images/team/team-02_t@2x-min.jpg 708w,
+            ./images/team/team-02_m-min.jpg 450w,
+            ./images/team/team-02_m@2x-min.jpg 900w"
+            
+            sizes="(min-width:1200px) 270px, (min-width:768px) 354px, (min-width:480px) 450px, 100vm"
+            src="./images/item2.jpg" alt="man"  />
             <div class="team-data">
               <h3 class="team-data__name">Ольга Репіна</h3>
               <p class="team-data__text">Frontend Developer</p>
@@ -230,7 +262,16 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/item3.jpg" alt="woman" width="270" />
+            <img 
+            srcset="./images/team/team-03_d-min.jpg 270w,
+            ./images/team/team-03_d@2x-min.jpg 540w,
+            ./images/team/team-03_t-min.jpg 354w,
+            ./images/team/team-03_t@2x-min.jpg 708w,
+            ./images/team/team-03_m-min.jpg 450w,
+            ./images/team/team-03_m@2x-min.jpg 900w"
+            
+            sizes="(min-width:1200px) 270px, (min-width:768px) 354px, (min-width:480px) 450px, 100vm"
+            src="./images/item3.jpg" alt="woman"  />
             <div class="team-data">
               <h3 class="team-data__name">Микола Тарасов</h3>
               <p class="team-data__text">Marketing</p>
@@ -267,7 +308,16 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/item4.jpg" alt="men" width="270" />
+            <img 
+            srcset="./images/team/team-04_d-min.jpg 270w,
+            ./images/team/team-04_d@2x-min.jpg 540w,
+            ./images/team/team-04_t-min.jpg 354w,
+            ./images/team/team-04_t@2x-min.jpg 708w,
+            ./images/team/team-04_m-min.jpg 450w,
+            ./images/team/team-04_m@2x-min.jpg 900w"
+            
+            sizes="(min-width:1200px) 270px, (min-width:768px) 354px, (min-width:480px) 450px, 100vm"
+            src="./images/item4.jpg" alt="men"  />
             <div class="team-data">
               <h3 class="team-data__name">Михайло Єрмаков</h3>
               <p class="team-data__text">UI Designer</p>
@@ -303,8 +353,8 @@
                 </li>
               </ul>
             </div>
-    </section> -->
-    <!-- <section class="section client">
+    </section>
+    <section class="section client">
       <div class="conteiner">
         <h2 class="section-title">Постійні клієнти </h2>
         <ul class="client__list">
@@ -348,9 +398,9 @@
 
         </ul>
       </div>
-    </section> -->
-  </main>
-  <footer class="page-footer">
+    </section>
+  </main> -->
+   <footer class="page-footer">
     <div class="conteiner conteiner-footer">
       <div class="tablet-footer">
       <div class="footer-logo">
@@ -430,11 +480,11 @@
     </div>
 
 
-  </footer>
+  </footer> 
 
 </body>
 
-<!-- <div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <form class="form">
       <p class="form__text">Залиште свої дані, ми вам передзвонимо</p>
@@ -477,7 +527,7 @@
       <label class="form__checkbox-label">
         <input class="form__checkbox" type="checkbox" name="policy">
         <span class="form__checkbox-icon"></span>
-        Погоджуюся з розсилкою та приймаю <a href="" class="form__policy-link"> Умови договору</a>
+        <span class="qwer">Погоджуюся з розсилкою та приймаю </span><a href="" class="form__policy-link"> Умови договору</a>
       </label>
 
       <button class="submit" type="submit">Відправити</button>
@@ -491,8 +541,38 @@
     </button>
   </div>
 </div>
+<!----------------Mobile-menu--------------->
+ <div class="menu-container  js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu"> 
+      <svg class="menu-icon" width="40" height="40">
+        <use href="./images/symbol-defs.svg#closeburg"></use>
+      </svg>
+    </button>
+  </button>
 
+  <ul class="mobile-menu">
+    <li class="mobile__item"><a href="" class="link mobile__link">Студія</a></li>
+    <li class="mobile__item"><a href="./portfolio.html" class="link mobile__link">Портфоліо</a></li>
+    <li class="mobile__item"><a href="" class="link mobile__link">Контакти</a></li>
+    
+  </ul>
+  <ul class="mobile-menu__contacts">
+    <li class="mobile-contacts__item"><a href="" class="link mob-cont__link">+38 096 111 11 11</a></li>
+    <li class="mobile-contacts__item"><a href="" class="link mob-cont__link">info@devstudio.com</a></li>
+    
+  
+  </ul>
+  <ul class="mobile-menu__social">
+    <li class="mobile-social__item"><a href="" class="link mob-soc__link">Instagram</a></li>
+    <li class="mobile-social__item"><a href="" class="link mob-soc__link">Twitter</a></li>
+    <li class="mobile-social__item"><a href="" class="link mob-soc__link">Facebook</a></li>
+  <li class="mobile-social__item"><a href="" class="link mob-soc__link">LinkedIn</a></li>
+  </ul>
+</div> -->
 <script src="./js/modal.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"></script>
+<script src="./js/mobile-menu.js"></script>
 
-
-</html> -->
+</html>
