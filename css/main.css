@@ -436,7 +436,6 @@ img {
 .filter {
   display: flex;
   margin-bottom: 40px;
-  gap: 8px;
   flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
@@ -454,6 +453,8 @@ img {
 }
 
 .filter__button {
+  margin-right: 8px;
+  margin-bottom: 8px;
   color: var(--secondly-text-color);
   background-color: var(--third-section-color);
   font-family: roboto, sans-serif;
@@ -470,6 +471,12 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.filter__button:nth-child(3n) {
+  margin-right: 0;
+}
+.filter__button:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
 .filter__button:hover, .filter__button:focus {
   color: var(--white-color);
   background-color: var(--hover-color);
@@ -484,7 +491,7 @@ img {
 }
 
 .filter__button--one {
-  padding: 6px 25px;
+  padding: 4px 25px;
   margin: 0;
 }
 
