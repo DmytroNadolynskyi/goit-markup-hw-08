@@ -804,7 +804,7 @@ input:focus {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-right: 93px;
+  margin-right: 88px;
   padding-top: 24px;
   padding-bottom: 25px;
   display: block;
@@ -818,6 +818,11 @@ input:focus {
   font-size: 26px;
   line-height: 1.19;
   cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 93px;
+  }
 }
 
 .communication {
