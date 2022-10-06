@@ -1,4 +1,6 @@
-.form {}
+.form {
+    padding: 40px;
+}
 
 .form__text {
     padding-bottom: 12px;
@@ -61,6 +63,8 @@ input:focus {
 }
 
 .form__icone {
+    display: flex;
+    vertical-align: middle;
     position: absolute;
     top: 50%;
     left: 12px;
@@ -148,11 +152,12 @@ input:focus {
 
 .form__checkbox-icon {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+   
     border: 2px solid #212121;
     margin-right: 7px;
     border-radius: 2px;
+    min-width: 16px;
+        min-height: 16px;
 
 
 }
