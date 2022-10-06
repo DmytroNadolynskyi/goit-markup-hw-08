@@ -134,9 +134,8 @@ img {
   background-color: transparent;
   border: none;
 }
-.menu-toggle:focus.menu-icon {
+.menu-toggle:focus .menu-icon {
   fill: #2196F3;
-  color: #2196F3;
 }
 @media screen and (min-width: 768px) {
   .menu-toggle {
